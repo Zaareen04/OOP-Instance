@@ -1,0 +1,48 @@
+//Task05
+/*Design the Course class to generate the correct output from the driver code provided below:
+Driver Code
+
+public class Tester5{
+  public static void main(String[] args) {
+    Course c1 = new Course();
+    Course c2 = new Course();  
+    c1.updateDetails("Programming Language I","CSE110", 3);
+    System.out.println("========== 1 ==========");
+    c1.displayCourse(); 
+    c2.updateDetails("Data Structures","CSE220", 3);
+    System.out.println("========== 2 ==========");
+    c2.displayCourse();  
+    c1.updateDetails("Programming Language II","CSE111", 3);
+    System.out.println("========== 3 ==========");
+    c1.displayCourse();
+  }
+}
+
+Output
+========== 1 ==========
+Course Name: Programming Language I
+Course Code: CSE110
+Course Credit: 3
+========== 2 ==========
+Course Name: Data Structures
+Course Code: CSE220
+Course Credit: 3
+========== 3 ==========
+Course Name: Programming Language II
+Course Code: CSE111
+Course Credit: 3
+
+*/
+
+public class Course{
+      public String name;
+      public String course;
+      public int credit;   
+      public void updateDetails(String n,String c,int cred){
+            name = n;
+            course = c;
+            credit = cred;}
+      public void displayCourse(){
+            System.out.println("Course Name: "+name);
+            System.out.println("Course Code: "+course);
+            System.out.println("Course Credit: "+credit);}}
