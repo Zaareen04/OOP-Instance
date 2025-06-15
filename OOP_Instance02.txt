@@ -1,0 +1,39 @@
+//Task01
+/*Design the “Student” class so that the main method prints the following:
+
+Tester Class
+public class StudentTester1{
+   public static void main(String [] args){
+      Student s1 = new Student();
+      System.out.println("Name of the Student: "+s1.name);
+      System.out.println("ID of the Student: "+s1.id);
+      s1.name = "Bob";
+      s1.id = 123;
+      System.out.println("Name of the Student: "+s1.name);
+      System.out.println("ID of the Student: "+s1.id);
+   }}
+
+Output
+Name of the Student: Default
+ID of the Student: 0
+Name of the Student: Bob
+ID of the Student: 123
+*/
+
+public class UniversityTester{
+      public static void main(String[]args){
+            University u1= new University();
+            University u2= new University();
+            University c1= new University();
+            University c2= new University();
+            System.out.println(u1);
+            System.out.println(c1);
+            u1.name="Imperial University of London";
+            u2.name="Brac University";
+            c1.country="England";
+            c2.country="Bangladesh";
+            System.out.println(u1.name);
+            System.out.println(c1.country);
+            System.out.println(u2.name);
+            System.out.println(c2.country);
+      }}
