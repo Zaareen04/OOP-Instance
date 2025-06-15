@@ -1,0 +1,38 @@
+//Task01
+/*You are given the following “University” class: 
+
+public class University{
+    public String name;
+    public String country;
+}
+Now write a Java tester class named “UniversityTester”.
+
+Write the main method and create 2 objects of University class and print the location of the objects and print the instance variables of the objects. Are the location of the objects the same? 
+
+Now change the instance variables of the first object.
+ name =  “Imperial College London”
+ country = “England”
+
+Now change the instance variables of the second object.
+	name =  “BRAC University”
+country = “Bangladesh”
+
+Now check if the instance variables of both objects have changed or not and whether the instance variables of both objects are of the same value or not.*/
+
+public class UniversityTester{
+      public static void main(String[]args){
+            University u1= new University();
+            University u2= new University();
+            University c1= new University();
+            University c2= new University();
+            System.out.println(u1);
+            System.out.println(c1);
+            u1.name="Imperial University of London";
+            u2.name="Brac University";
+            c1.country="England";
+            c2.country="Bangladesh";
+            System.out.println(u1.name);
+            System.out.println(c1.country);
+            System.out.println(u2.name);
+            System.out.println(c2.country);
+      }}
