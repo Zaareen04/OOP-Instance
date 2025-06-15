@@ -1,4 +1,4 @@
-//Task01
+//Task02
 /*Design the “Student” class so that the main method prints the following:
 
 Tester Class
